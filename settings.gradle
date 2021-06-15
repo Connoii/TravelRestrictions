@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        maven {
+            url "http://binary-repo.budgetdirect.com.au/repository/public"
+            allowInsecureProtocol = true
+        }
+    }
+}
+
+rootProject.name = 'travel-restrictions'
