@@ -17,6 +17,7 @@ public class TravelRestrictionsApplication {
 //		Restriction restriction1 = new Restriction("Intelligent Lion Outbreak", "Narnia");
 //		restrictionRepository.save(restriction);
 //		restrictionRepository.save(restriction1);
+		System.out.println("hello");
 
 
 
