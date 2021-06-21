@@ -32,6 +32,8 @@ public class RestrictionController {
         return restrictionRepository.findById(id);
     }
 
+    //
+
     @PutMapping
     @ResponseStatus(HttpStatus.OK)
     public Restriction updateRestriction(@RequestBody Restriction restriction) {
